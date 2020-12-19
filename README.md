@@ -23,12 +23,12 @@ The system's interface is built using using HTML & CSS  from scratch.Everything 
 So We use randomforestRegression algorithm to build the model, sterialize it and destrerialize it using Pickle to make prediction. Whenever a user enter the correspondant input through the interface, at the backend , a function in the flask app is called to fetch the inputted data, clean it and displayed the predicted outcome.<br><br>
 
 The system depends on the following files.
-1. `insurance.csv` [See here](https://github.com/memudualimatou/INSURANCE-WEB-APPLICATION/blob/master/insurance.csv) :The system database  [CLICK HERE TO DOWNLOAD](https://www.kaggle.com/noordeen/insurance-premium-prediction)
-2. `insurances.ipynb` [See here](https://github.com/memudualimatou/INSURANCE-WEB-APPLICATION/blob/master/Insurances.ipynb) :The model notebook
-3. `insurances.py` [See here](https://github.com/memudualimatou/INSURANCE-WEB-APPLICATION/blob/master/Insurances.py): The model python file
-4. `app.py` [See here](https://github.com/memudualimatou/INSURANCE-WEB-APPLICATION/blob/master/app.py): The flask app
-5. `index.html` [See here](https://github.com/memudualimatou/INSURANCE-WEB-APPLICATION/blob/master/templates/index.html): The html file is located insite the Templates folder
-6. `AppStyle.css` [See here](https://github.com/memudualimatou/INSURANCE-WEB-APPLICATION/blob/master/static/AppStyle.css): The css file is located inside the static folder.<br><br><br>
+1. `insurance.csv` [See here](https://github.com/memudualimatou/INSURANCE-CHARGES-WEB-APPLICATION/blob/master/insurance.csv) :The system database  [CLICK HERE TO DOWNLOAD](https://www.kaggle.com/noordeen/insurance-premium-prediction)
+2. `insurances.ipynb` [See here](https://github.com/memudualimatou/INSURANCE-CHARGES-WEB-APPLICATION/blob/master/Insurances.ipynb) :The model notebook
+3. `insurances.py` [See here](https://github.com/memudualimatou/INSURANCE-CHARGES-WEB-APPLICATION/blob/master/Insurances.py): The model python file
+4. `app.py` [See here](https://github.com/memudualimatou/INSURANCE-CHARGES-WEB-APPLICATION/blob/master/app.py): The flask app
+5. `index.html` [See here](https://github.com/memudualimatou/INSURANCE-CHARGES-WEB-APPLICATION/blob/master/templates/index.html): The html file is located insite the Templates folder
+6. `AppStyle.css` [See here](https://github.com/memudualimatou/INSURANCE-CHARGES-WEB-APPLICATION/blob/master/static/AppStyle.css): The css file is located inside the static folder.<br><br><br>
 
 
 ## ⚠️ THE TECHNOLOGY
@@ -48,11 +48,11 @@ The system depends on the following files.
 <br>
 <br>
 
-![capture](https://github.com/memudualimatou/INSURANCE-WEB-APPLICATION/blob/main/images/ezgif.com-gif-maker%20(3).gif)<br>
+![capture](https://github.com/memudualimatou/INSURANCE-CHARGES-WEB-APPLICATION/blob/main/images/ezgif.com-gif-maker%20(3).gif)<br>
 <br><br>
 
 # 🔑 Prerequisites
-All the dependencies and required libraries are included in the file `requirements.txt` [See here](https://github.com/memudualimatou/INSURANCE-WEB-APPLICATION/blob/master/requirements.txt): The css file located inside the static foler.
+All the dependencies and required libraries are included in the file `requirements.txt` [See here](https://github.com/memudualimatou/INSURANCE-CHARGES-WEB-APPLICATION/blob/master/requirements.txt): The css file located inside the static foler.
 <br><br>
 
 ## 🚀 INSTALLATION
