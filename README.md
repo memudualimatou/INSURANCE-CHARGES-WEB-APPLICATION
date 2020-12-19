@@ -7,7 +7,7 @@
 
 
 ## 😇 INSPIRATION
-The purposes of this Project to look into different features to observe their relationship, and plot a regression algorithm based on several features of individual such as age, physical/family condition and location against their existing medical expense to be used for predicting future medical expenses of individuals that help medical insurance to make decision on charging the premium.The dataset has 7 coloumns which are age,sex,region,charges,numberOfChildren, smoke and BMI wwhich is Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women. BMI= m/h^2
+The purposes of this Project to look into different features to observe their relationship, and plot a regression algorithm based on several features of individual such as age, physical/family condition and location against their existing medical expense to be used for predicting future medical expenses of individuals that help medical insurance to make decision on charging the premium.The dataset has 7 coloumns which are age,sex,region,charges,numberOfChildren, smoke and BMI which is Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women. BMI= m/h^2
 where
 m	=	mass (in kilograms)
 h	=	height (in meters)
@@ -18,7 +18,7 @@ h	=	height (in meters)
 
 ## ⚙️ HOW DOES THE INSURANCE CHARGES PREDICTION SYSTEM WORKS?
 
-This sytem is a flask web application  hosted on heroku. The user has to input some data and get the predicted charges immediately.
+This sytem is a flask responsive web application  hosted on heroku. The user has to input some data and get the predicted charges immediately.
 The system's interface is built using using HTML & CSS  from scratch.Everything is all about preferences but I will personnaly prefer to  style my web app than using the plain streamlit interface.
 So We use randomforestRegression algorithm to build the model, sterialize it and destrerialize it using Pickle to make prediction. Whenever a user enter the correspondant input through the interface, at the backend , a function in the flask app is called to fetch the inputted data, clean it and displayed the predicted outcome.<br><br>
 
