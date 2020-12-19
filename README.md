@@ -7,7 +7,7 @@
 
 
 ## 😇 INSPIRATION
-The purposes of this Project to look into different features to observe their relationship, and plot a regression algorithm based on several features of individual such as age, physical/family condition and location against their existing medical expense to be used for predicting future medical expenses of individuals that help medical insurance to make decision on charging the premium.The dataset has 7 coloumns which are age,sex,region,charges,numberOfChildren, smoke and BMI which is Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women. BMI= m/h^2
+The purposes of this Project to look into different features to observe their relationship, and plot a regression algorithm based on several features of individual such as age, physical/family condition and location against their existing medical expense to be used for predicting future medical expenses of individuals that help medical insurance to make decision on charging the premium.The dataset has 7 coloumns which are age,sex,region,charges,numberOfChildren, smoke and BMI which is Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women. BMI= m/h &sup2
 where
 m	=	mass (in kilograms)
 h	=	height (in meters)
