@@ -48,7 +48,7 @@ The system depends on the following files.
 <br>
 <br>
 
-![capture](https://github.com/memudualimatou/INSURANCE-CHARGES-WEB-APPLICATION/blob/main/images/ezgif.com-gif-maker%20(3).gif)<br>
+![capture](https://github.com/memudualimatou/INSURANCE-CHARGES-WEB-APPLICATION/blob/main/IMAGES/ezgif.com-gif-maker%20(2).gif)<br>
 <br><br>
 
 # 🔑 Prerequisites
@@ -58,7 +58,7 @@ All the dependencies and required libraries are included in the file `requiremen
 ## 🚀 INSTALLATION
 
 Clone the repo\
-```$ git clone https://git.heroku.com/my-insurance-web-app.git```
+```$ https://git.heroku.com/insurance-charges-web-app.git```
 
 
 Now, run the following command in your Terminal/Command Prompt to install the libraries required
