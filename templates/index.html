@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insurance Web Application</title>
+    <meta charset="utf-8">
+	<meta name="author" content="AnikeSadia">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="static/AppStyle.css">
+
+
+</head>
+<body>
+
+    <div class="model_desc">
+    <h2> Model Description </h2><br>
+    <p>This web application is an insurance charges prediction system. The aim of this project is to predict individuals medical insurance charges in dollars based on their status.</p>
+    <p>After inputting the corresponding data, a predicted insurance charges is displayed.<br><br>The Body Mass Index (BMI) is a measure of body fat based on height and weight.<br><br> BMI= m/h &sup2
+     , m = mass (in Kilogram) and h = height (in meters).
+    </p>
+
+</div>
+
+<div class="data_part">
+    <div class="model_desc2">
+        <h2>Model Description</h2><br>
+        <p>This web application is an insurance charges prediction system.</p>
+        <p>The aim of this project is to predict individuals insurance charges in dollars based on their status.</p>
+    <p>After inputting the corresponding data, a predicted insurance charges is displayed.<br><br>The Body Mass Index (BMI) is a measure of body fat based on height and weight.<br><br> BMI= m/h &sup2
+     , m = mass (in Kilogram) and h = height (in meters).
+    </p>
+
+    </div>
+
+
+    <h1>CHARGES PREDICTION</h1>
+
+    <form action="{{url_for('predict')}}" method="post">
+            <input class="Input" type="text" name="age" placeholder="Enter your age" required/>
+        <select name="comp_select" class="Input">
+              {% for o in data %}
+              <option value="{{ o.gender }}">{{ o.gender }}</option>
+              {% endfor %}
+            </select><br><br>
+        <input class="Input" type="text" name="bmi" placeholder="Enter your BMI score" required/>
+        <select name="comp_select1" class="Input">
+              {% for o in data1 %}
+              <option value="{{ o.noc }}">{{ o.noc }}</option>
+              {% endfor %}
+            </select><br><br>
+        <select name="comp_select2" class="Input">
+              {% for o in data2 %}
+              <option value="{{ o.smoke }}">{{ o.smoke }}</option>
+              {% endfor %}
+            </select>
+        <select name="comp_select3" class="Input">
+              {% for o in data3 %}
+              <option value="{{ o.region }}">{{ o.region }}</option>
+              {% endfor %}
+            </select><br><br>
+        <button type="submit" class="pred-btn"> Predict </button>
+
+</form>
+    <h3> {{prediction_text}} </h3>
+
+</div>
+
+
+
+</body>
+</html>
