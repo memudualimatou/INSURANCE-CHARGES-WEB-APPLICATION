@@ -67,7 +67,7 @@ Now, run the following command in your Terminal/Command Prompt to install the li
 
 
 # 👏 And it's done!
-Feel free to mail me for any doubts/query ✉️ anikesadia01@gmail.com
+Feel free to mail me for any doubts/query ✉️ alimatousadia005@gmail.com
 <br><br>
 
 
